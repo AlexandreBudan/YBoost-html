@@ -2,8 +2,10 @@
 <html dir="ltr" lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Nouvel onglet</title>
+    <title>JORDAN</title>
     <link rel="stylesheet" href="/static/index.css">
+    <link rel="stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -20,8 +22,23 @@
     </header>
     <h1>"Dream it, Do it"</h1>
 
-    <div id="slider">
 
+    <div class="carousel">
+      <a href="" class="carousel-item">
+        <img src="./static/court_purple.png">
+      </a>
+      <a href="" class="carousel-item">
+        <img src="./static/court_purple.png">
+      </a>
+      <a href="" class="carousel-item">
+        <img src="./static/court_purple.png">
+      </a>
+      <a href="" class="carousel-item">
+        <img src="./static/court_purple.png">
+      </a>
+      <a href="" class="carousel-item">
+        <img src="./static/court_purple.png">
+      </a>
     </div>
 
     <div id="text">
@@ -34,5 +51,14 @@
 
     <button>Buy it!</button>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          indicators: true
+        });
+      });
+    </script>
   </body>
 </html>
