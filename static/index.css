@@ -28,11 +28,11 @@ header {
     display: flex;
 }
 
-h1 {
+body h1 {
     font: bold;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 5%;
+    font-size: 300%;
 }
 
 #logo p {
@@ -54,7 +54,7 @@ h1 {
     color: white;
     text-decoration: none;
     margin-right: 25%;
-    margin-top: 9%;
+    margin-top: -5%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -76,7 +76,6 @@ h1 {
     text-align: center;
     color: white;
     size: 50%;
-    margin-top: 5%;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -84,9 +83,10 @@ h1 {
 
 #buy {
     display: block;
-    margin: 5% auto;
     font-size: 150%;
+    margin: 3% auto;
     width: 25%;
+    cursor: pointer;
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -101,19 +101,19 @@ h1 {
 }
 
 #buy:hover {
-    display: block;
-    margin: 5% auto;
-    font-size: 150%;
-    width: 25%;
-    color: white;
-    font-family: 'Poppins', sans-serif;
     background-color: #6c6868;
-    background-image : -webkit-linear-gradient(top, #000000, #6c6868);
-    background-image : -moz-linear-gradient(top, #000000, #6c6868);
-    background-image : -ms-linear-gradient(top, #000000, #6c6868);
-    background-image : -o-linear-gradient(top, #000000, #6c6868);
-    background-image : linear-gradient(to bottom, #000000, #6c6868);
-    -moz-border-radius : 20px;
-    -webkit-border-radius : 20px;
-    border-radius : 20px;
+    background-image : -webkit-linear-gradient(top, #6c6868, #000000);
+    background-image : -moz-linear-gradient(top, #6c6868, #000000);
+    background-image : -ms-linear-gradient(top, #6c6868, #000000);
+    background-image : -o-linear-gradient(top, #6c6868, #000000);
+    background-image : linear-gradient(to bottom, #6c6868, #000000);
+}
+
+.carousel {
+    height: 500px;
+    margin-top: -7%;
+}
+
+.carousel .carousel-item {
+    width: 400px;
 }
