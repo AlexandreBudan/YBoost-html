@@ -28,6 +28,13 @@ header {
     display: flex;
 }
 
+h1 {
+    font: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
 #logo p {
     color: white;
     text-decoration: none;
