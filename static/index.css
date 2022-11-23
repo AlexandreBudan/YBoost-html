@@ -72,3 +72,7 @@ header {
 .carousel .carousel-item {
     width: 400px;
 }
+
+.carousel .indicators {
+    margin: 74px 10px !important;
+}
